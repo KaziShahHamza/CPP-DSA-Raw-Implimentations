@@ -37,8 +37,6 @@ int main() {
     cout << "person name: " << person.first << endl;
     cout << "person height: " << person.second << endl;
     
-    
-    
     cout << endl;
     cout << "--- Output Ends Here ---" << endl;
     cout << endl;
