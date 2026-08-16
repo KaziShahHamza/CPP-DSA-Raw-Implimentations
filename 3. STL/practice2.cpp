@@ -14,7 +14,7 @@ int main() {
     pair<char, float> p2 = {'A', 3.42};
     auto p3 = make_pair("hamza", 78);
     pair<string, pair<string, float>> student = {"hamza", {"A+", 83}};
-
+    
     // p2 = {5, 10};
 
     cout << "Student: " << student.first << ", Grade: " << student.second.first << ", Number: " << student.second.second << endl;
