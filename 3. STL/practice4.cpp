@@ -9,33 +9,33 @@ int main() {
     cout << "--- Output Starts Here ---" << endl;
     cout << endl;
     
-    map<int, int> mp;
+    map<string, int> mp;
 
-    mp[1] = 100;
-    mp[3] = 200;
-    mp[5] = 300;
+    mp["bb"] = 100;
+    mp["ba"] = 200;
+    mp["bc"] = 300;
     
-    mp[3]++;
-    mp[5] += 20;
+    // mp[3]++;
+    // mp[5] += 20;
 
-    for (int i = 0; i < 6; i++) {
-        cout << mp[i] << " ";
-    }
+    // for (int i = 0; i < 10; i++) {
+    //     cout << mp[i] << " ";
+    // }
+    
+    // cout << endl;
+    // int a = mp.count(2);
+    // cout << "a: " << a << endl;
+
+    // mp.erase(5);
+
+    // for (int i = 0; i < 6; i++) {
+    //     cout << mp[i] << " ";
+    // }
     
     cout << endl;
-    int a = mp.count(1);
-    cout << "a: " << a << endl;
-
-    mp.erase(5);
-
-    for (int i = 0; i < 6; i++) {
-        cout << mp[i] << " ";
-    }
-    
-    cout << endl;
     cout << endl;
     
-    cout << "map output: ";
+    cout << "map output: " << endl;
     for (auto x : mp) {
         cout << x.first << " " << x.second << endl;
     }
