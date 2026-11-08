@@ -13,3 +13,18 @@ build/
 
 # Linux/macOS executables
 *.out
+
+# Ignore extensionless binaries generated from .cpp
+*
+!*.*
+!*/
+!.gitignore
+!Makefile
+!CMakeLists.txt
+!LICENSE
+!README*
+!Readme*
+
+# IDEs
+.idea/
+.vscode/
