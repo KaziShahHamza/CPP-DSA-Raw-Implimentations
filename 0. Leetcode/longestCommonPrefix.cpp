@@ -1,4 +1,4 @@
-// Topic Name: 
+// Topic Name: longestCommonPrefix
 
 #include <iostream>
 #include <bits/stdc++.h>
